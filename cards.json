@@ -1,0 +1,6 @@
+[
+  { "id": "card_a", "name": "A銀行 極致無限卡", "last4": "1688", "color": "#c9a24b" },
+  { "id": "card_b", "name": "B銀行 生活點數卡", "last4": "2299", "color": "#5b7fbf" },
+  { "id": "card_c", "name": "C銀行 旅人哩程卡", "last4": "0417", "color": "#5fa38a" },
+  { "id": "card_d", "name": "D銀行 網購回饋卡", "last4": "8825", "color": "#a3618f" }
+]

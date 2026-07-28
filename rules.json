@@ -1,0 +1,85 @@
+[
+  {
+    "card_id": "card_a",
+    "category": "超商",
+    "merchant": ["7-11", "全家", "萊爾富"],
+    "reward_type": "percentage",
+    "reward_value": 5,
+    "monthly_cap": 300,
+    "conditions": "需綁定Apple Pay / Google Pay 感應支付",
+    "quota_limited": true,
+    "quota_id": "cardA_2026Q3"
+  },
+  {
+    "card_id": "card_a",
+    "category": "一般消費",
+    "merchant": ["*"],
+    "reward_type": "percentage",
+    "reward_value": 1,
+    "monthly_cap": null,
+    "conditions": null,
+    "quota_limited": false
+  },
+  {
+    "card_id": "card_b",
+    "category": "餐飲",
+    "merchant": ["*"],
+    "reward_type": "percentage",
+    "reward_value": 3,
+    "monthly_cap": 500,
+    "conditions": null,
+    "quota_limited": false
+  },
+  {
+    "card_id": "card_b",
+    "category": "一般消費",
+    "merchant": ["*"],
+    "reward_type": "percentage",
+    "reward_value": 0.5,
+    "monthly_cap": null,
+    "conditions": null,
+    "quota_limited": false
+  },
+  {
+    "card_id": "card_c",
+    "category": "旅遊",
+    "merchant": ["長榮航空", "中華航空", "各大訂房網"],
+    "reward_type": "percentage",
+    "reward_value": 8,
+    "monthly_cap": 1000,
+    "conditions": "限量登記制，每季開放一次",
+    "quota_limited": true,
+    "quota_id": "cardC_2026Q3"
+  },
+  {
+    "card_id": "card_c",
+    "category": "一般消費",
+    "merchant": ["*"],
+    "reward_type": "percentage",
+    "reward_value": 1.2,
+    "monthly_cap": null,
+    "conditions": null,
+    "quota_limited": false
+  },
+  {
+    "card_id": "card_d",
+    "category": "網購",
+    "merchant": ["MOMO", "PChome", "蝦皮"],
+    "reward_type": "percentage",
+    "reward_value": 6,
+    "monthly_cap": 400,
+    "conditions": "需完成線上登錄",
+    "quota_limited": true,
+    "quota_id": "cardD_2026Q3"
+  },
+  {
+    "card_id": "card_d",
+    "category": "一般消費",
+    "merchant": ["*"],
+    "reward_type": "percentage",
+    "reward_value": 0.8,
+    "monthly_cap": null,
+    "conditions": null,
+    "quota_limited": false
+  }
+]

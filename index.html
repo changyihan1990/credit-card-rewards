@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>回饋雷達 · 信用卡回饋比較</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <div class="mark">
+      <span class="mark-dot"></span>
+      <span class="mark-text">回饋雷達</span>
+    </div>
+    <p class="tagline">刷卡前，先問問哪張卡最划算</p>
+  </header>
+
+  <main>
+    <section class="calc-panel" aria-label="消費輸入">
+      <div class="field">
+        <label for="category">消費類別</label>
+        <select id="category">
+          <option value="">請選擇</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="merchant">商店名稱（選填，越精確越準）</label>
+        <input id="merchant" list="merchant-list" placeholder="例如：7-11、MOMO、長榮航空" autocomplete="off" />
+        <datalist id="merchant-list"></datalist>
+      </div>
+
+      <div class="field field-amount">
+        <label for="amount">消費金額</label>
+        <div class="amount-input">
+          <span class="currency">NT$</span>
+          <input id="amount" type="number" min="0" placeholder="0" inputmode="numeric" />
+        </div>
+      </div>
+
+      <button id="calc-btn" class="calc-btn">找出最佳回饋</button>
+    </section>
+
+    <section class="results" id="results" aria-live="polite">
+      <p class="results-hint">選擇類別並輸入金額，立即比較所有卡片的回饋金額。</p>
+    </section>
+
+    <section class="quota-panel">
+      <h2 class="section-title">限量名額 · 開搶時間</h2>
+      <div id="quota-list" class="quota-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>資料維護於 <code>data/</code> 目錄，更新規則後自動生效 · 僅供個人參考，實際回饋以各發卡銀行公告為準</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+  {
+    "quota_id": "cardA_2026Q3",
+    "card_id": "card_a",
+    "description": "A銀行超商5%回饋 每季限量登記",
+    "register_open": "2026-08-01T09:00:00+08:00",
+    "register_note": "整點開放，通常10分鐘內額滿，建議提前5分鐘準備"
+  },
+  {
+    "quota_id": "cardC_2026Q3",
+    "card_id": "card_c",
+    "description": "C銀行旅遊8%回饋 季度限量登記",
+    "register_open": "2026-08-05T10:00:00+08:00",
+    "register_note": "需先至App完成身分驗證才能登記"
+  },
+  {
+    "quota_id": "cardD_2026Q3",
+    "card_id": "card_d",
+    "description": "D銀行網購6%回饋 每月線上登錄",
+    "register_open": "2026-08-01T00:00:00+08:00",
+    "register_note": "每月1日重新登錄，額滿為止"
+  }
+]
